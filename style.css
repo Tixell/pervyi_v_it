@@ -129,31 +129,7 @@ body{
         width: 100%;
         padding: 70px 30px 20px ;
     }
-    .socialIcons{
-        display: flex;
-        justify-content: center;
-    }
-    .socialIcons a{
-        text-decoration: none;
-        padding:  10px;
-        background-color: white;
-        margin: 10px;
-        border-radius: 50%;
-    }
-    .socialIcons a i{
-        font-size: 2em;
-        color: black;
-        opacity: 0,9;
-    }
-    /* Hover affect on social media icon */
-    .socialIcons a:hover{
-        background-color: #111;
-        transition: 0.5s;
-    }
-    .socialIcons a:hover i{
-        color: white;
-        transition: 0.5s;
-    }
+
     .footerNav{
         margin: 30px 0;
     }
@@ -348,6 +324,36 @@ body{
           flex: 2;
         }
       }          
+
+      .social {display: inline-block;}
+      .social a {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin: 0 10px 10px 0;
+        text-align: center;
+        color: #000;
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 24px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+      }
+      .social a:hover {color: #fff;}
+      .social svg {
+        margin-top: 7px;
+        width: 32px;
+        height: 32px;
+      }
+      .odnoklassniki a:hover {background: #f93;}
+      .skype a:hover {background: #00aff0;}
+      .telegram a:hover {background: #249bd7;}
+      .twitter a:hover {background: #00acee;}
+      .viber a:hover {background: #7b519d;}
+      .vk a:hover {background: #4a76a8;}
+      .whatsapp a:hover {background: #50b154;}
+      .youtube a:hover {background: #c4302b;}
+
+
 
 
   
